@@ -37,7 +37,7 @@ override.tf.json
 terraform.rc
 
 # These lines were added by the tf-migrate CLI tool
-_hcp-migrate-configs-*/
-!_hcp-migrate-configs*/terraform.tfstate
 .terraform.lock.*
 _hcp-migrate-configs/
+_hcp-migrate-configs-*/
+!_hcp-migrate-configs*/terraform.tfstate
